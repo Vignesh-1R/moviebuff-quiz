@@ -3,7 +3,10 @@ import { useContext } from "react";
 import {GameStateContext} from '../helpers/Contexts';
 
 function Menu() {
-    const { gameState, setGameState, userName, setUserName } = useContext(GameStateContext);
+    const {  setGameState, setUserName } = useContext(GameStateContext);
+
+    // {GameStateContext, userName}
+
 
     return (
         <div className="Menu">

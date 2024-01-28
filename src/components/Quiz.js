@@ -10,7 +10,9 @@ const [currentQuestion, setCurrentQuestion]= useState(0)
 
 const[optionChosen,setOptionChosen] = useState("")
 
-const { score, setScore, gameState, setGameState } = useContext(GameStateContext);
+const { score, setScore, setGameState } = useContext(GameStateContext); 
+
+// {gameState}
 
 const chooseOption = (option) => {
     setOptionChosen(option);
