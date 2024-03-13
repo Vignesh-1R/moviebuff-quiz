@@ -12,6 +12,11 @@
   background-color: #0056b3;
 }
 
+button:focus {
+  background-color: black;
+  color: white;
+}
+
 .App {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -53,8 +58,8 @@ label:hover{
 }
 
 button:hover {
-  cursor: progress;
   background-color: black;
+  cursor: pointer;
   color: white;
 }
 
